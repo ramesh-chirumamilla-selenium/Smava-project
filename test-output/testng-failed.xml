@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.kiran.smava.testScripts.TC002_UserDetails">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="signIn"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.kiran.smava.testScripts.TC002_UserDetails -->
+      <class name="com.kiran.smava.testScripts.TC001_LoanSelection">
+        <methods>
+          <include name="UserDetails"/>
+          <include name="setUP"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.kiran.smava.testScripts.TC001_LoanSelection -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
